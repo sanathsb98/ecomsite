@@ -1,0 +1,124 @@
+.home-container{
+    background-color: #eaeaea;
+ 
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  
+  
+}
+
+.home-content{
+
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+
+  
+}
+.home-content-left{
+
+    width: 50%;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(169, 169, 169); */
+
+   
+  
+}
+.amazing{
+    color: #fdb82c;
+}
+.home-content-right{
+ 
+    width: 50%;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    gap: 22px;
+    /* background-color: rgb(188, 188, 188); */
+ 
+  
+}
+.home-content-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 84px;
+}
+.home-content-description{
+    font-family: "Inter";
+    font-size: 20px;
+}
+.home-shop-button{
+    font-family: "Inter";
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.homeleftimage{
+    width: 100%;
+
+    max-width: 1500px;
+}
+.home-brands-container{
+/* background-color: #c1c1c1; */
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* new arrivals section */
+.new-arrivals-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+
+
+/* media query */
+@media screen and (max-width:990px) and (min-width:0px) {
+    .home-content-title{
+        font-size: 60px;
+        line-height: 64px;
+    }
+    .home-content-right{
+        padding:50px;    
+    }
+}
+@media screen and (max-width:730px) and (min-width:0px) {
+    .home-content-right{
+  width: 100%;
+    }
+    .home-content-left{
+       display: none;
+    }
+}
+@media screen and (max-width:530px) and (min-width:0px) {
+    .home-content{
+ padding: 0px;
+    }
+  
+}
+
